@@ -1,0 +1,278 @@
+html,
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0f3ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo img {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.container1,
+.container2 {
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content1 {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 0 15px;
+}
+
+.content1 p {
+    text-align: center;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: 'Courier New', Courier, monospace;}
+
+.content1 ul li {
+    list-style: disc;
+    font-size: 30px;
+    padding: 10px 5px 5px 10px;
+}
+
+#line1,
+#line2,
+#line3,
+#line4,
+#line5,
+#line6,
+#line7,
+#line8 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 2rem 6rem 1rem 6rem;
+}
+
+.details1,
+.details2,
+.details3,
+.details4,
+.details5,
+.details6,
+.details7,
+.details8 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.photo {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.photo img {
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 1rem 0;
+}
+
+table {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    background-color: #e0f3ff;
+    border: 5px solid #dddddd;
+}
+
+th {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bolder;
+}
+td {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.follow-about {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.about {
+    width: 75%;
+    margin: 10px;
+}
+.follow-container {
+    width: 23%;
+    border-top: 5px solid black;
+}
+.follow-head {
+    width: 100%;
+}
+.follow-head p{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.socials {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.socials a {
+    height: 300px;
+    width: 300px;
+}
+#whatsapp {
+    background-image: url('whatsapp.png');
+    background-size: cover;
+}
+#telegram {
+    background-image: url('Telegram.png');
+        background-size: cover;
+}
+#linkedin {
+    background-image: url('lin.webp');
+        background-size: cover;
+}
+.link-box {
+    max-width: 100%;
+    margin: 0.2rem;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.telegram-alert {
+    background-color: #e0f3ff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    margin: 2rem 0;
+    border: 5px solid #dddddd;
+}
+
+.telegram-alert span {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.telegram-alert a {
+    font-size: 20px;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+}
+
+.telegram-alert a:hover {
+    background-color: #0056b3;
+}
+
+.table2 {
+    height: 300px;
+    width: 100%;
+}
+
+
+.apply-link,
+.whatsapp-link,
+.telegram-link {
+    color: #001eff;
+    text-decoration: none;
+}
+
+.apply-link:hover,
+.whatsapp-link:hover,
+.telegram-link:hover {
+    text-decoration: underline;
+}
+
+#disclaimer {
+    font-size: 2rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.pre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 400px;
+    width: 45%;
+    border: 2px solid black;
+    margin: 1rem;
+}

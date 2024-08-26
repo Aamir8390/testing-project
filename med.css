@@ -1,0 +1,202 @@
+@media (max-width: 1024px) {
+    .socials a {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links a {
+        padding: 1rem;
+        border-top: 1px solid #444;
+        color: black;
+
+    }
+
+    .nav-links a:first-child {
+        border-top: none;
+    }
+
+    #line1,
+    #line2,
+    #line3,
+    #line4,
+    #line5,
+    #line6,
+    #line7,
+    #line8 {
+        font-size: 40px;
+        padding: 1.8rem 5rem 0.9rem 5rem;
+    }
+    #line9 {
+        font-size: 40px;
+    }
+
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6,
+    .details7,
+    .details8 {
+        font-size: 25px;
+    }
+
+    table {
+        height: 500px;
+        margin-bottom: 1.5rem;
+    }
+
+    td,
+    th {
+        padding: 13px;
+        border: 4px solid #dddddd;
+    }
+
+    th {
+        font-size: 25px;
+    }
+
+    td {
+        font-size: 20px;
+    }
+
+    .content1 ul li {
+        font-size: 25px;
+        padding: 8px 4px 4px 8px;
+    }
+.follow-about {
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    width: 100%;
+}
+.socials {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.socials a {
+    height: 150px;
+    width: 150px;
+}
+.follow-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+    .telegram-alert {
+        height: 100px;
+
+    }
+
+    .telegram-alert span {
+        font-size: 30px;
+    }
+
+    #disclaimer {
+        font-size: 1.5rem;
+    }
+}@media (max-width: 426px) {
+
+    #line1,
+    #line2,
+    #line3,
+    #line4,
+    #line5,
+    #line6,
+    #line7,
+    #line8 {
+        font-size: 20px;
+        padding: 0.8rem ;
+    }
+#line9 {
+    font-size: 20px;
+}
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6,
+    .details7,
+    .details8 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    table {
+        height: 100px;
+        margin-bottom: 1.2rem;
+    }
+
+    td,
+    th {
+        padding: 13px;
+        border: 4px solid #dddddd;
+    }
+
+    th {
+        font-size: 15px;
+    }
+
+    td {
+        font-size: 13px;
+    }
+.container1,
+.container2 {
+    margin: 10px;
+    padding: 10px;
+}
+    .content1 ul li {
+        font-size: 15px;
+        padding: 8px 4px 4px 8px;
+    }
+
+    .telegram-alert {
+        height: 100px;
+
+    }
+
+    .telegram-alert span {
+        font-size: 18px;
+        margin: 10px;
+    }
+    .telegram-alert a {
+        font-size: 15px;
+    }
+.socials a {
+    height: 90px;
+    width: 90px;
+}
+    #disclaimer {
+        font-size: 1rem;
+    }
+    .box {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+
